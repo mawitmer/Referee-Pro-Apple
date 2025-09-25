@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1000,
+        "name": "Junioren D0",
+        "periods": 3,
+        "periodtime": 25,
+        "breaktime": 10,
+        "overtimemode": true,
+        "overtimeperiods": 2,
+        "overtime": 10,
+        "overtimebreak": 2,
+        "cupmode": false,
+        "timeoutmode": true
+    },
+    {
+        "id": 1004,
+        "name": "Junioren C4",
+        "periods": 2,
+        "periodtime": 40,
+        "breaktime": 10,
+        "overtimemode": true,
+        "overtimeperiods": 2,
+        "overtime": 10,
+        "overtimebreak": 2,
+        "cupmode": true,
+        "timeoutmode": true
+    },
+    {
+        "id": 1003,
+        "name": "Junioren D3",
+        "periods": 3,
+        "periodtime": 25,
+        "breaktime": 10,
+        "overtimemode": true,
+        "overtimeperiods": 2,
+        "overtime": 10,
+        "overtimebreak": 2,
+        "cupmode": false,
+        "timeoutmode": true
+    },
+    {
+        "id": 1001,
+        "name": "Junioren C1",
+        "periods": 2,
+        "periodtime": 40,
+        "breaktime": 10,
+        "overtimemode": true,
+        "overtimeperiods": 2,
+        "overtime": 10,
+        "overtimebreak": 2,
+        "cupmode": true,
+        "timeoutmode": true
+    },
+    {
+        "id": 1008,
+        "name": "Junioren D8",
+        "periods": 3,
+        "periodtime": 25,
+        "breaktime": 10,
+        "overtimemode": true,
+        "overtimeperiods": 2,
+        "overtime": 10,
+        "overtimebreak": 2,
+        "cupmode": false,
+        "timeoutmode": true
+    },
+    {
+        "id": 1011,
+        "name": "Junioren C11",
+        "periods": 2,
+        "periodtime": 40,
+        "breaktime": 10,
+        "overtimemode": true,
+        "overtimeperiods": 2,
+        "overtime": 10,
+        "overtimebreak": 2,
+        "cupmode": true,
+        "timeoutmode": true
+    }
+]
