@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="22155" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="IGi-cB-aGO">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="22022"/>
+    </dependencies>
+    <scenes>
+        <!--main-->
+        <scene sceneID="fRD-1l-P1O">
+            <objects>
+                <controller identifier="main" id="IGi-cB-aGO">
+                    <items>
+                        <button width="1" alignment="left" title="Control" id="Jp6-6v-8Ed"/>
+                        <button width="1" alignment="left" title="Events" id="AYd-Kq-Wc6"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-16" y="-40"/>
+        </scene>
+        <!--control-->
+        <scene sceneID="EKb-ko-BWZ">
+            <objects>
+                <controller identifier="control" id="arg-sf-Ef3"/>
+            </objects>
+            <point key="canvasLocation" x="432" y="426"/>
+        </scene>
+        <!--events-->
+        <scene sceneID="PrH-Ap-Pjn">
+            <objects>
+                <controller identifier="events" id="NsH-Ug-2OY"/>
+            </objects>
+            <point key="canvasLocation" x="440" y="10"/>
+        </scene>
+    </scenes>
+</document>
