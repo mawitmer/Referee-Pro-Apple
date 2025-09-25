@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F03E79A62B0B4C150068A066 /* AddEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03E79A52B0B4C150068A066 /* AddEvent.swift */; };
+		F0571BA82B024A3F00CC3998 /* Control.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0571BA72B024A3F00CC3998 /* Control.swift */; };
+		F0571BAA2B024BB700CC3998 /* Matchview.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0571BA92B024BB700CC3998 /* Matchview.swift */; };
+		F066F92D2B41AC2A00D3EA55 /* CatagoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F066F92C2B41AC2A00D3EA55 /* CatagoryData.swift */; };
+		F066F92F2B41AE3800D3EA55 /* CategoryAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = F066F92E2B41AE3800D3EA55 /* CategoryAdd.swift */; };
+		F066F9332B436F5C00D3EA55 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F066F9322B436F5C00D3EA55 /* CategoryRow.swift */; };
+		F066F9352B444C5D00D3EA55 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F066F9342B444C5D00D3EA55 /* StringExtension.swift */; };
+		F083C2902B013A0800B2C8F0 /* Referee_ProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083C28F2B013A0800B2C8F0 /* Referee_ProApp.swift */; };
+		F083C2922B013A0800B2C8F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083C2912B013A0800B2C8F0 /* ContentView.swift */; };
+		F083C2942B013A0900B2C8F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F083C2932B013A0900B2C8F0 /* Assets.xcassets */; };
+		F083C2972B013A0900B2C8F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F083C2962B013A0900B2C8F0 /* Preview Assets.xcassets */; };
+		F083C29D2B013A0900B2C8F0 /* Referee Pro Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F083C29C2B013A0900B2C8F0 /* Referee Pro Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F083C2A22B013A0900B2C8F0 /* Referee_ProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083C2A12B013A0900B2C8F0 /* Referee_ProApp.swift */; };
+		F083C2A42B013A0900B2C8F0 /* GameInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083C2A32B013A0900B2C8F0 /* GameInit.swift */; };
+		F083C2A62B013A0B00B2C8F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F083C2A52B013A0B00B2C8F0 /* Assets.xcassets */; };
+		F083C2A92B013A0B00B2C8F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F083C2A82B013A0B00B2C8F0 /* Preview Assets.xcassets */; };
+		F0923D212B4491BB00A492C0 /* CategoryEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0923D202B4491BB00A492C0 /* CategoryEdit.swift */; };
+		F0923D232B45ED2A00A492C0 /* TeamRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0923D222B45ED2A00A492C0 /* TeamRow.swift */; };
+		F0923D252B45ED3900A492C0 /* TeamAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0923D242B45ED3900A492C0 /* TeamAdd.swift */; };
+		F0923D272B45ED5400A492C0 /* TeamEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0923D262B45ED5400A492C0 /* TeamEdit.swift */; };
+		F0923D292B45FBF300A492C0 /* TeamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0923D282B45FBF300A492C0 /* TeamData.swift */; };
+		F0923D2B2B469E4000A492C0 /* PlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0923D2A2B469E4000A492C0 /* PlayerData.swift */; };
+		F0923D2C2B4822B700A492C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F083C2A82B013A0B00B2C8F0 /* Preview Assets.xcassets */; };
+		F0923D352B4851FE00A492C0 /* GameInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F083C2A32B013A0900B2C8F0 /* GameInit.swift */; };
+		F0923D362B4852C500A492C0 /* TeamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0923D282B45FBF300A492C0 /* TeamData.swift */; };
+		F0923D372B4852C500A492C0 /* PlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0923D2A2B469E4000A492C0 /* PlayerData.swift */; };
+		F0923D382B4852C500A492C0 /* CatagoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F066F92C2B41AC2A00D3EA55 /* CatagoryData.swift */; };
+		F0EE019C2B2DF6B900EC9142 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F0EE019B2B2DF6B800EC9142 /* Localizable.xcstrings */; };
+		F0EE01A02B2DFC2400EC9142 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F0EE019B2B2DF6B800EC9142 /* Localizable.xcstrings */; };
+		F0EE01A62B2E076A00EC9142 /* CategoryData.json in Resources */ = {isa = PBXBuildFile; fileRef = F0EE01A52B2E076A00EC9142 /* CategoryData.json */; };
+		F0EE01A72B2E076A00EC9142 /* CategoryData.json in Resources */ = {isa = PBXBuildFile; fileRef = F0EE01A52B2E076A00EC9142 /* CategoryData.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F083C29E2B013A0900B2C8F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F083C2842B013A0800B2C8F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F083C29B2B013A0900B2C8F0;
+			remoteInfo = "Referee Pro Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F083C2AF2B013A0B00B2C8F0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F083C29D2B013A0900B2C8F0 /* Referee Pro Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F03E79A52B0B4C150068A066 /* AddEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEvent.swift; sourceTree = "<group>"; };
+		F0571BA72B024A3F00CC3998 /* Control.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Control.swift; sourceTree = "<group>"; };
+		F0571BA92B024BB700CC3998 /* Matchview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matchview.swift; sourceTree = "<group>"; };
+		F066F92C2B41AC2A00D3EA55 /* CatagoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoryData.swift; sourceTree = "<group>"; };
+		F066F92E2B41AE3800D3EA55 /* CategoryAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryAdd.swift; sourceTree = "<group>"; };
+		F066F9322B436F5C00D3EA55 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		F066F9342B444C5D00D3EA55 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		F083C28C2B013A0800B2C8F0 /* Referee Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Referee Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F083C28F2B013A0800B2C8F0 /* Referee_ProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Referee_ProApp.swift; sourceTree = "<group>"; };
+		F083C2912B013A0800B2C8F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 1; };
+		F083C2932B013A0900B2C8F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F083C2962B013A0900B2C8F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F083C29C2B013A0900B2C8F0 /* Referee Pro Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Referee Pro Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F083C2A12B013A0900B2C8F0 /* Referee_ProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Referee_ProApp.swift; sourceTree = "<group>"; };
+		F083C2A32B013A0900B2C8F0 /* GameInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInit.swift; sourceTree = "<group>"; };
+		F083C2A52B013A0B00B2C8F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F083C2A82B013A0B00B2C8F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0923D202B4491BB00A492C0 /* CategoryEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryEdit.swift; sourceTree = "<group>"; };
+		F0923D222B45ED2A00A492C0 /* TeamRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRow.swift; sourceTree = "<group>"; };
+		F0923D242B45ED3900A492C0 /* TeamAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamAdd.swift; sourceTree = "<group>"; };
+		F0923D262B45ED5400A492C0 /* TeamEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamEdit.swift; sourceTree = "<group>"; };
+		F0923D282B45FBF300A492C0 /* TeamData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamData.swift; sourceTree = "<group>"; };
+		F0923D2A2B469E4000A492C0 /* PlayerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerData.swift; sourceTree = "<group>"; };
+		F0EE019B2B2DF6B800EC9142 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		F0EE01A52B2E076A00EC9142 /* CategoryData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CategoryData.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F083C2892B013A0800B2C8F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F083C2992B013A0900B2C8F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F083C2832B013A0800B2C8F0 = {
+			isa = PBXGroup;
+			children = (
+				F0EE019B2B2DF6B800EC9142 /* Localizable.xcstrings */,
+				F083C28E2B013A0800B2C8F0 /* Referee Pro */,
+				F083C2A02B013A0900B2C8F0 /* Referee Pro Watch App */,
+				F083C28D2B013A0800B2C8F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F083C28D2B013A0800B2C8F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F083C28C2B013A0800B2C8F0 /* Referee Pro.app */,
+				F083C29C2B013A0900B2C8F0 /* Referee Pro Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F083C28E2B013A0800B2C8F0 /* Referee Pro */ = {
+			isa = PBXGroup;
+			children = (
+				F0923D1F2B444CB300A492C0 /* Extensions */,
+				F0EE01AD2B2F086000EC9142 /* Model */,
+				F0EE01AC2B2F082800EC9142 /* Resources */,
+				F0EE01AB2B2F081700EC9142 /* Views */,
+				F083C28F2B013A0800B2C8F0 /* Referee_ProApp.swift */,
+				F083C2932B013A0900B2C8F0 /* Assets.xcassets */,
+				F083C2952B013A0900B2C8F0 /* Preview Content */,
+			);
+			path = "Referee Pro";
+			sourceTree = "<group>";
+		};
+		F083C2952B013A0900B2C8F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F083C2962B013A0900B2C8F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F083C2A02B013A0900B2C8F0 /* Referee Pro Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F083C2A12B013A0900B2C8F0 /* Referee_ProApp.swift */,
+				F0571BA72B024A3F00CC3998 /* Control.swift */,
+				F0571BA92B024BB700CC3998 /* Matchview.swift */,
+				F03E79A52B0B4C150068A066 /* AddEvent.swift */,
+				F083C2A32B013A0900B2C8F0 /* GameInit.swift */,
+				F083C2A52B013A0B00B2C8F0 /* Assets.xcassets */,
+				F083C2A72B013A0B00B2C8F0 /* Preview Content */,
+			);
+			path = "Referee Pro Watch App";
+			sourceTree = "<group>";
+		};
+		F083C2A72B013A0B00B2C8F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F083C2A82B013A0B00B2C8F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0923D1F2B444CB300A492C0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F066F9342B444C5D00D3EA55 /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F0EE01AB2B2F081700EC9142 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F083C2912B013A0800B2C8F0 /* ContentView.swift */,
+				F0923D222B45ED2A00A492C0 /* TeamRow.swift */,
+				F0923D242B45ED3900A492C0 /* TeamAdd.swift */,
+				F0923D262B45ED5400A492C0 /* TeamEdit.swift */,
+				F066F9322B436F5C00D3EA55 /* CategoryRow.swift */,
+				F066F92E2B41AE3800D3EA55 /* CategoryAdd.swift */,
+				F0923D202B4491BB00A492C0 /* CategoryEdit.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F0EE01AC2B2F082800EC9142 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F0EE01A52B2E076A00EC9142 /* CategoryData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F0EE01AD2B2F086000EC9142 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F066F92C2B41AC2A00D3EA55 /* CatagoryData.swift */,
+				F0923D282B45FBF300A492C0 /* TeamData.swift */,
+				F0923D2A2B469E4000A492C0 /* PlayerData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F083C28B2B013A0800B2C8F0 /* Referee Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F083C2B02B013A0B00B2C8F0 /* Build configuration list for PBXNativeTarget "Referee Pro" */;
+			buildPhases = (
+				F083C2882B013A0800B2C8F0 /* Sources */,
+				F083C2892B013A0800B2C8F0 /* Frameworks */,
+				F083C28A2B013A0800B2C8F0 /* Resources */,
+				F083C2AF2B013A0B00B2C8F0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F083C29F2B013A0900B2C8F0 /* PBXTargetDependency */,
+			);
+			name = "Referee Pro";
+			productName = "Referee Pro";
+			productReference = F083C28C2B013A0800B2C8F0 /* Referee Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F083C29B2B013A0900B2C8F0 /* Referee Pro Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F083C2AC2B013A0B00B2C8F0 /* Build configuration list for PBXNativeTarget "Referee Pro Watch App" */;
+			buildPhases = (
+				F083C2982B013A0900B2C8F0 /* Sources */,
+				F083C2992B013A0900B2C8F0 /* Frameworks */,
+				F083C29A2B013A0900B2C8F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Referee Pro Watch App";
+			productName = "Referee Pro Watch App";
+			productReference = F083C29C2B013A0900B2C8F0 /* Referee Pro Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F083C2842B013A0800B2C8F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F083C28B2B013A0800B2C8F0 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					F083C29B2B013A0900B2C8F0 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F083C2872B013A0800B2C8F0 /* Build configuration list for PBXProject "Referee Pro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				Base,
+			);
+			mainGroup = F083C2832B013A0800B2C8F0;
+			productRefGroup = F083C28D2B013A0800B2C8F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F083C28B2B013A0800B2C8F0 /* Referee Pro */,
+				F083C29B2B013A0900B2C8F0 /* Referee Pro Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F083C28A2B013A0800B2C8F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F083C2972B013A0900B2C8F0 /* Preview Assets.xcassets in Resources */,
+				F0EE01A62B2E076A00EC9142 /* CategoryData.json in Resources */,
+				F0923D2C2B4822B700A492C0 /* Preview Assets.xcassets in Resources */,
+				F083C2942B013A0900B2C8F0 /* Assets.xcassets in Resources */,
+				F0EE019C2B2DF6B900EC9142 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F083C29A2B013A0900B2C8F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F083C2A92B013A0B00B2C8F0 /* Preview Assets.xcassets in Resources */,
+				F0EE01A72B2E076A00EC9142 /* CategoryData.json in Resources */,
+				F0EE01A02B2DFC2400EC9142 /* Localizable.xcstrings in Resources */,
+				F083C2A62B013A0B00B2C8F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F083C2882B013A0800B2C8F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0923D252B45ED3900A492C0 /* TeamAdd.swift in Sources */,
+				F066F92D2B41AC2A00D3EA55 /* CatagoryData.swift in Sources */,
+				F083C2922B013A0800B2C8F0 /* ContentView.swift in Sources */,
+				F0923D232B45ED2A00A492C0 /* TeamRow.swift in Sources */,
+				F0923D352B4851FE00A492C0 /* GameInit.swift in Sources */,
+				F066F92F2B41AE3800D3EA55 /* CategoryAdd.swift in Sources */,
+				F0923D272B45ED5400A492C0 /* TeamEdit.swift in Sources */,
+				F0923D212B4491BB00A492C0 /* CategoryEdit.swift in Sources */,
+				F0923D2B2B469E4000A492C0 /* PlayerData.swift in Sources */,
+				F0923D292B45FBF300A492C0 /* TeamData.swift in Sources */,
+				F066F9332B436F5C00D3EA55 /* CategoryRow.swift in Sources */,
+				F083C2902B013A0800B2C8F0 /* Referee_ProApp.swift in Sources */,
+				F066F9352B444C5D00D3EA55 /* StringExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F083C2982B013A0900B2C8F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F083C2A42B013A0900B2C8F0 /* GameInit.swift in Sources */,
+				F0923D382B4852C500A492C0 /* CatagoryData.swift in Sources */,
+				F0923D372B4852C500A492C0 /* PlayerData.swift in Sources */,
+				F03E79A62B0B4C150068A066 /* AddEvent.swift in Sources */,
+				F083C2A22B013A0900B2C8F0 /* Referee_ProApp.swift in Sources */,
+				F0571BAA2B024BB700CC3998 /* Matchview.swift in Sources */,
+				F0923D362B4852C500A492C0 /* TeamData.swift in Sources */,
+				F0571BA82B024A3F00CC3998 /* Control.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F083C29F2B013A0900B2C8F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F083C29B2B013A0900B2C8F0 /* Referee Pro Watch App */;
+			targetProxy = F083C29E2B013A0900B2C8F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F083C2AA2B013A0B00B2C8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F083C2AB2B013A0B00B2C8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F083C2AD2B013A0B00B2C8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Referee Pro Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2LM76792C7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Referee Pro";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.ixl.Referee-Pro";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ixl.Referee-Pro.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F083C2AE2B013A0B00B2C8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Referee Pro Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 2LM76792C7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Referee Pro";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.ixl.Referee-Pro";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ixl.Referee-Pro.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		F083C2B12B013A0B00B2C8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Referee Pro/Preview Content\"";
+				DEVELOPMENT_TEAM = 2LM76792C7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Referee Pro";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ixl.Referee-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F083C2B22B013A0B00B2C8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Referee Pro/Preview Content\"";
+				DEVELOPMENT_TEAM = 2LM76792C7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Referee Pro";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ixl.Referee-Pro";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F083C2872B013A0800B2C8F0 /* Build configuration list for PBXProject "Referee Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F083C2AA2B013A0B00B2C8F0 /* Debug */,
+				F083C2AB2B013A0B00B2C8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F083C2AC2B013A0B00B2C8F0 /* Build configuration list for PBXNativeTarget "Referee Pro Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F083C2AD2B013A0B00B2C8F0 /* Debug */,
+				F083C2AE2B013A0B00B2C8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F083C2B02B013A0B00B2C8F0 /* Build configuration list for PBXNativeTarget "Referee Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F083C2B12B013A0B00B2C8F0 /* Debug */,
+				F083C2B22B013A0B00B2C8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F083C2842B013A0800B2C8F0 /* Project object */;
+}
